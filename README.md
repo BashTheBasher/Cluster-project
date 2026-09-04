@@ -96,11 +96,11 @@ Fill this in as you go — you will need it repeatedly.
 | -------- | ------- | --------------- | ----------- | ------------- |
 | cluster  | head    | `192.168.50.1`  |             |               |
 | switch   | switch  | `192.168.50.254`|             |               |
-| rpi1     | compute | `192.168.50.11` |             |               |
-| rpi2     | compute | `192.168.50.12` |             |               |
-| rpi3     | compute | `192.168.50.13` |             |               |
-| rpi4     | compute | `192.168.50.14` |             |               |
-| rpi5     | compute | `192.168.50.15` |             |               |
+| rpi2     | compute | `192.168.50.20` |             |               |
+| rpi3     | compute | `192.168.50.21` |             |               |
+| rpi4     | compute | `192.168.50.22` |             |               |
+| rpi5     | compute | `192.168.50.23` |             |               |
+| rpi6     | compute | `192.168.50.24` |             |               |
 
 ---
 
