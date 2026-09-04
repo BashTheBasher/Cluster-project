@@ -19,19 +19,19 @@
 
 ### 1. Wiring
 
-- [ ] Mount/place all 6 Pis and the switch
-- [ ] Run an Ethernet cable from each Pi to the switch
-- [ ] Sort out power for all 6 Pis (PoE HATs, or individual power supplies)
+- [x] Mount/place all 6 Pis and the switch
+- [x] Run an Ethernet cable from each Pi to the switch
+- [x] Sort out power for all 6 Pis (PoE HATs, or individual power supplies)
 - [ ] Plug the USB→Ethernet adapter into the head node and connect it to the normal network
 - [ ] Plug the SSD into the head node via USB 3
 
 ### 2. Head node — networking
 
-- [ ] Give the onboard port (`eth0`) a static IP: `192.168.50.1`
+- [x] Give the onboard port (`eth0`) a static IP: `192.168.50.1`
 - [ ] Check the outside-world port (`eth1`) gets an IP from the normal network
-- [ ] Install `isc-dhcp-server`
-- [ ] Configure `/etc/dhcp/dhcpd.conf` for the `192.168.50.0/24` cluster network
-- [ ] Set `INTERFACESv4="eth0"` in `/etc/default/isc-dhcp-server`
+- [x] Install `isc-dhcp-server`
+- [x] Configure `/etc/dhcp/dhcpd.conf` for the `192.168.50.0/24` cluster network
+- [x] Set `INTERFACESv4="eth0"` in `/etc/default/isc-dhcp-server`
 - [ ] Add cluster hostnames to `/etc/hosts`
 - [ ] Reboot and verify with `dhcp-lease-list`
 
